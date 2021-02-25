@@ -5,11 +5,17 @@ PyTorch based smart surveillance using YOLOV3. The gif below showcases the capab
 
 ### Summary:  ✨  
 The goal of the project is to generate valuable insights from the public surveillance videos and store them in a comfortable CSV record dependent on time and frames. The collected insights can be presented in any comfortable way like a dashboard or can be used for analysing data for future developments in the area under surveillance in terms of traffic control, accident prevention, road expansion etc.
-### Some generated plots:
+### Generated plots:
 we tested our model on [this video](https://www.youtube.com/watch?v=jjlBnrzSGjc&ab_channel=Panasonicsecurity) from youtube, here are the inferences:
-
 ![](/images_and_gifs/frame_vs_count_1.png)
 ![](/images_and_gifs/total_unique_counts_barplot_1.png)   
+### Storing data:
+We're recording the acquired insights in form of a CSV file for easy exporting and storage. Here's how our output file looks:
+
+![](/images_and_gifs/csv_screenshot_1.png)
+
+Each column represents a class of object and each row corresponds to a frame in the input video. The values represent the number of occurences of objects of each class frame-by-frame.
+
   
 -----  
 ### Ingredients  🥗  
