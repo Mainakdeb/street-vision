@@ -1,6 +1,6 @@
 # Street Vision :eye:
-
 PyTorch based smart surveillance using YOLOV3. The gif below showcases the capabilities of our model.
+
 ![](/images_and_gifs/street_vision_demo_short_2.gif)   
 
 ### Summary:  ✨  
@@ -13,9 +13,10 @@ we tested our model on [this video](https://www.youtube.com/watch?v=jjlBnrzSGjc&
   
 -----  
 ### Ingredients  🥗  
+
+👉🏽  PyTorch  
 👉🏽  YoloNetv3    
 👉🏽  Pandas  
-👉🏽  PyTorch  
 👉🏽  OpenCV  
 👉🏽  SciPy  
 👉🏽  matplotlib    
