@@ -14,7 +14,7 @@ We're recording the acquired insights in form of a CSV file for easy exporting a
 
 ![](/images_and_gifs/csv_screenshot_1.png)
 
-Each column represents a class of object and each row corresponds to a frame in the input video. The values represent the number of occurences of objects of each class frame-by-frame.
+Each column represents a class of object and each row corresponds to a frame in the input video. The values represent the number of occurences of objects of each class frame-by-frame. Take a look at the last row (in the image above), it conveys the presence of 16 unique cars and 1 truck in the last frame.
 
   
 -----  
