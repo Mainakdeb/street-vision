@@ -23,6 +23,8 @@ from IPython.display import clear_output
 import pandas as pd
 from scipy.signal import lfilter
 from tqdm import tqdm
+import warnings
+warnings.filterwarnings('ignore')
 
 if torch.cuda.is_available():
     device = torch.device("cuda:0")
@@ -77,7 +79,7 @@ def detector(input_video_path, num_frames, save_video, save_video_path, df):
   frame_arr=[]
   #while(True):
   
-  for ii in tqdm(range(num_frames)):
+  for ii in tqdm(range(num_frames), ascii=True, desc="processing frames"):
       ret, frame = vid.read()
       frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
       pilimg = Image.fromarray(frame)
