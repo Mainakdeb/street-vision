@@ -25,6 +25,7 @@ Each column represents a class of object and each row corresponds to a frame in 
 👉🏽  Pandas  
 👉🏽  OpenCV  
 👉🏽  SciPy  
-👉🏽  matplotlib    
+👉🏽  Matplotlib    
+👉🏽  Tqdm
   
 -----  
