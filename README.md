@@ -1,7 +1,7 @@
 # Street Vision :eye:
 PyTorch based smart surveillance using YOLOV3. The gif below showcases the capabilities of our model. The raw video is sourced from youtube - [link](https://www.youtube.com/watch?v=jjlBnrzSGjc&ab_channel=Panasonicsecurity), check out the predictions over the whole video - [link](https://drive.google.com/file/d/18sS6Y8j2klUQadjVOeeeNwCHrcyEAMjE/view?usp=sharing)
 
-![](/images_and_gifs/street_vision_demo_short_2.gif)   
+<img src ="images_and_gifs/street_vision_demo_short_2.gif" width = "100%">   
 
 ### Summary:  ✨  
 The goal of the project is to generate valuable insights from the public surveillance videos and store them in a comfortable CSV record dependent on time and frames. The collected insights can be presented in any comfortable way like a dashboard or can be used for analysing data for future developments in the area under surveillance in terms of traffic control, accident prevention, road expansion etc.
