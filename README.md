@@ -10,7 +10,7 @@ we tested our model on [this video](https://www.youtube.com/watch?v=jjlBnrzSGjc&
 ![](/images_and_gifs/frame_vs_count_1.png)
 ![](/images_and_gifs/total_unique_counts_barplot_1.png)   
 ### Storing data:
-We're recording the acquired insights in form of a CSV file for easy exporting and storage. Here's how our output file looks:
+We're recording the acquired insights in form of a CSV file for easy exporting and storage. People who are not familiar with coding can use Microsoft Excel or Libre Office to handle the output CSV files. Here's how our output file looks:
 
 ![](/images_and_gifs/csv_screenshot_1.png)
 
