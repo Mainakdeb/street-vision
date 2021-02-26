@@ -77,7 +77,7 @@ def detector(input_video_path, num_frames, save_video, save_video_path, df):
   frame_arr=[]
   #while(True):
   
-  for ii in tnrange(num_frames):
+  for tqdm(range(num_frames)):
       ret, frame = vid.read()
       frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
       pilimg = Image.fromarray(frame)
