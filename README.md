@@ -1,5 +1,7 @@
 # Street Vision :eye:
-PyTorch based smart surveillance using YOLOV3. The gif below showcases the capabilities of our model. The raw video is sourced from youtube - [link](https://www.youtube.com/watch?v=jjlBnrzSGjc&ab_channel=Panasonicsecurity), check out the predictions over the whole video - [link](https://www.youtube.com/watch?v=3lAxH-fQ90I&ab_channel=MainakDeb)
+deep-learning based data extraction from surveillance videos.
+
+The gif below showcases the capabilities of our model. The raw video is sourced from youtube - [link](https://www.youtube.com/watch?v=jjlBnrzSGjc&ab_channel=Panasonicsecurity), check out the predictions over the whole video - [link](https://www.youtube.com/watch?v=3lAxH-fQ90I&ab_channel=MainakDeb)
 
 <img src ="images_and_gifs/street_vision_demo_short_2.gif" width = "100%">   
 
